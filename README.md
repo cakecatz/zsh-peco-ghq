@@ -20,3 +20,9 @@ Add code to `~/.zshrc` for shortcut key like this.
 zle -N zsh-peco-ghq
 bindkey '^]' zsh-peco-ghq
 ```
+
+## Options
+
+| Option                    | Description                                                                                                                                                     | Default value |
+| :------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ |
+| **`ZSH_PECO_GHQ_FILTER`** | Set specific filter to `peco`. See list at peco's [--initial-filter](https://github.com/peco/peco#--initial-filter-ignorecasecasesensitivesmartcaseregexpfuzzy) | `IgnoreCase`  |
